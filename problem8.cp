@@ -27,7 +27,7 @@ int main()
     long int max= 0L;
     long currentStol;
     for (unsigned int i=0; i<=evaluate.size()-13; i++){
-        for( int j=0; j<13; j++){
+        for(unsigned int j=0; j<13; j++){
             currentStol = (long)evaluate.at(i+j) -48;
             currentMax = currentMax == 0L ? currentStol: currentMax * currentStol;
         }
